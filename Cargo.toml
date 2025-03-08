@@ -1,0 +1,11 @@
+[package]
+name = "exercises"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+bincode = { version = "2.0.0", features = ["serde"] }
+sha3 = "0.10.8"
+chrono = "0.4.40"
